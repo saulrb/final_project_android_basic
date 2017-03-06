@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="103dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/ivLibro"
+        android:contentDescription="@string/image_desc"/>
+
+    <TableLayout
+        android:layout_width="258dp"
+        android:layout_height="99dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:text="@string/isbn_lbl"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/isbn_lbl"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isbn"
+                android:hint="@string/isbn_lbl"
+                android:lines="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/titulo_lbl"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo_lbl"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:hint="@string/titulo_lbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo"
+                android:lines="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/compra_lb"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:id="@+id/compra_lb" />
+
+            <TextView
+                android:hint="@string/compra_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/compra"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/precio_lbl"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:id="@+id/precio_lbl" />
+
+            <TextView
+                android:hint="@string/precio_lbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/precio"
+                android:lines="1"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

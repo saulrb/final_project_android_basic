@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_carrito_compra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.itesm.proyecto_final_libreria_online_srb.CarritoCompraActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/carrito"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/tvCarrito" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@android:id/list"
+        android:layout_below="@+id/tvCarrito"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/total_compra_carrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLblTotalCompraCarrito"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@android:id/list"
+        android:textSize="18sp"
+        android:hint="@string/total_compra"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:text="@string/total_compra_carrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTotalCompraCarrito"
+        android:textSize="18sp"
+        android:hint="@string/total_compra"
+        android:textAlignment="viewStart"
+        android:layout_alignBaseline="@+id/tvLblTotalCompraCarrito"
+        android:layout_alignBottom="@+id/tvLblTotalCompraCarrito"
+        android:layout_toEndOf="@+id/tvLblTotalCompraCarrito" />
+</RelativeLayout>

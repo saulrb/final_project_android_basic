@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Libreria Online By SRB</string>
+    <string name="title_activity_login">Entrar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Corre</string>
+    <string name="prompt_password">Contraseña </string>
+    <string name="action_sign_in">Entrar </string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">El correo es invalido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Permiso de acceso a contactos es requerido para proveer autocompletado de correos."
+    </string>
+    <string name="catalogo">CATÁLOGO</string>
+    <string name="ver_carrito">Ver Carrito</string>
+    <string name="isbn_lbl">ISBN</string>
+    <string name="titulo_lbl">Titulo</string>
+    <string name="existencia_lbl">Existencia</string>
+    <string name="precio_lbl">Precio</string>
+    <string name="image_desc">Portada Libro</string>
+    <string name="title_activity_detalle_libro">DetalleLibroActivity</string>
+    <string name="libro_lbl">LIBRO</string>
+    <string name="cantidad_compra">Cantidad a comprar:</string>
+    <string name="total_compra">Total a comprar:</string>
+    <string name="total_compra_carrito">Total compra:</string>
+    <string name="guardar">Guardar</string>
+    <string name="valores_prompt">Cantidad a comprar</string>
+    <string name="carrito">CARRITO</string>
+    <string name="compra_lb">compra</string>
+    <array name="valores_enteros">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+        <item>"11"</item>
+        <item>"12"</item>
+        <item>"13"</item>
+        <item>"14"</item>
+        <item>"15"</item>
+        <item>"16"</item>
+    </array>
+</resources>
